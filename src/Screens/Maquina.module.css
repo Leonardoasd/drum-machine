@@ -1,0 +1,79 @@
+.Maquina {
+    height: 340px;
+    width: 800px;
+    display: flex;
+    transition: 0.5s ease;
+}
+.drumContainer{
+    width: 50%;
+}
+.controls{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 201, 201);
+}
+.drumContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(204, 201, 201);
+}
+.drum-pad{
+    height: 80px;
+    width: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 4px 4px 5px;
+    background-color: gray;
+}
+.drum-pad:active {
+    background-color: brown;
+}
+.drum-pad:hover {
+    cursor: pointer;
+}
+.power p{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.powerButton {
+    width: 50px;
+    height: 25px;
+    background-color: black;
+}
+.interruptor {
+    width: 23px;
+    height: 20px;
+    background-color: blue;
+    margin: 2.5px;
+}
+.interruptor:hover {
+    cursor: pointer;
+}
+.pantalla {
+    height: 45px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: gray;
+}
+.volumen {
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    width: 250px;
+}
