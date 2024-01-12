@@ -1,6 +1,6 @@
 .Maquina {
     height: 340px;
-    width: 70vw;
+    width: 800px;
     display: flex;
     transition: 0.5s ease;
     justify-content: space-between;
