@@ -8,7 +8,7 @@ const Maquina = () => {
     const [name, setName] = useState("");
     const [volume, setVolume] = useState(0.5); 
     const [letras, setLetras] = useState("");
-    const [colors, setColors] = useState({border: "8px solid black"})
+    const [colors, setColors] = useState({border: "8px solid black"});
 
     const handlePower = () => {
         setPower(!power);
